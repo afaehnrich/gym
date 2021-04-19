@@ -1,4 +1,8 @@
 from gym.envs.registration import registry, register, make, spec
+from deep_glide_RRT.jsbgym_new.register_envs import register_jsbsim_envs
+
+
+register_jsbsim_envs()
 
 # Algorithmic
 # ----------------------------------------
